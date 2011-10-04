@@ -1,0 +1,9 @@
+This directory contains the Sequence Arithmetic Framework.
+
+    The Sequence Arithmetic Framework is free software.  See the file
+COPYING for copying permission.  See the file INSTALL for installation
+instructions.
+
+    Sequence was developed at Enbridge Pipelines Inc. by Perry
+Kundert, but he was not the first to discover a more sensible way to
+handle sequence numbers, than that described in RFC 1982...

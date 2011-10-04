@@ -1,0 +1,5 @@
+*.o
+*.a
+*~
+.svn
+sequence-test

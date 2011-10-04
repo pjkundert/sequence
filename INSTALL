@@ -1,0 +1,21 @@
+Installation
+
+    The Sequence Arithmetic Framework is completeley implemented in
+the <sequence> and <sequence.H> header file; only access to those
+files is necessary to use it.  Therefore, building and installing is
+very simple; to install, run:
+
+	./configure		# does nothing.
+	make			# builds optional unit test object, and distribution package
+	make install		# copies header files to /usr/local/include
+
+    The default installation target is /usr/local/include/; you will
+likely require root priviledges to install there.
+
+    To build and execute the (optional) Sequence Arithmetic Framework
+unit tests, the Enbridge CUT Framework must be available, either
+installed in the standard include path, or available in ../cut/.  To
+build and execute the unit tests, run:
+
+	make test
+
